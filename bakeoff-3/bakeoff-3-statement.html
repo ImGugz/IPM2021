@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<!-- saved from url=(0100)https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/enunciado-bake-off-3 -->
+<html dir="ltr" lang="pt_PT"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="Content-Language" content="pt">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="FenixEdu™ is an open-source academic information platform.">
+    <meta name="Keywords" content="FenixEdu, open-source, academic, information, platform, academic administration, higher education, e-learning">
+    <meta name="Language" content="pt_PT">
+    <meta name="Author" content="FenixEdu">
+    <meta name="Email" content="hello@fenixedu.org">
+    <meta name="Copyright" content="Técnico Lisboa - Instituto Superior Técnico">
+    <meta name="Distribution" content="Global">
+    <meta name="Rating" content="General">
+
+    <!-- OpenGraph Specific Metas -->
+    <meta property="og:title" content="FenixEdu™">
+    <meta property="og:type" content="application">
+    <meta property="og:url" content="http://www.fenixedu.org">
+    <meta property="og:site_name" content="FenixEdu">
+    <meta property="og:description" content="FenixEdu Learning is an open-source academic information platform.">
+    <meta property="fb:profile_id" content="379238245509413">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.5">
+
+            <title>Enunciado: Bake-off #3 · Interfaces Pessoa Máquina</title>
+    
+    <link href="./bakeoff-3-statement_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./bakeoff-3-statement_files/publicPages.css" rel="stylesheet">
+    <script src="./bakeoff-3-statement_files/jquery-2.1.1.min.js" type="text/javascript"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://fenix.tecnico.ulisboa.pt/cms/assets/fenixedu-learning-theme/b262c4f7794b1d10/js/html5shiv.js"></script>
+      <script src="https://fenix.tecnico.ulisboa.pt/cms/assets/fenixedu-learning-theme/b262c4f7794b1d10/js/respond.min.js"></script>
+    <![endif]-->
+
+    
+    <!-- Header -->
+        <!-- End Header -->
+    
+    <link rel="shortcut icon" type="image/x-icon" href="https://fenix.tecnico.ulisboa.pt/api/bennu-portal/configuration/favicon">
+  </head>
+
+  <body>
+
+        	<div id="headcounter">
+		<div class="container">
+			
+
+		<div class="row" style="padding-top:50px; padding-bottom:25px;">
+			<div class="col-sm-9">
+        <div>
+				  <a href="http://tecnico.ulisboa.pt/" target="_blank"><img class="logo" src="./bakeoff-3-statement_files/logo"></a>
+        </div>
+			</div>
+			<div class="col-sm-3 ">
+        <div>
+	           
+        </div>
+			</div>
+		</div>
+		</div>
+	</div>
+	
+		<div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          <h2 style="font-weight:300;" class="site-header"><a href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre">Interfaces Pessoa Máquina</a>  </h2>
+          
+            <div style="font-size:15px; color:#888; margin-top:5px; margin-bottom:15px;"><small>
+              &nbsp;</small></div>          
+        </div>
+        <div class="col-sm-3 hidden-xs">
+              <div style="margin-top: 25px;">
+                <img src="./bakeoff-3-statement_files/icon_global.svg" width="13" height="13" style="margin-bottom:2px;margin-right:10px">
+                                        <a class="locale-changer active" title="português (Portugal)" onclick="setLang(&#39;pt_PT&#39;)">pt</a>
+                                        <a class="locale-changer " title="inglês (Reino Unido)" onclick="setLang(&#39;en_GB&#39;)">en</a>
+                                </div>
+        </div>
+      </div>
+	  		</div>
+	
+    <div class="container">
+
+      <main class="row">
+
+        <div class="col-sm-9 main-content" id="content-block">
+          <h3 style="font-weight:300; margin-bottom: 22px; margin-top:0px;">
+                
+            
+          </h3>
+              	    
+    <div>
+        
+            
+            <p></p><h2>Bake-off #3 - Escrita em Smartwatches</h2><p></p><table class="table table-bordered table-striped"><thead></thead><tbody><tr><td><b>Disponível: </b>10 de Maio de 2021<br><b></b><b></b></td></tr><tr><td>&nbsp;<b>Entrega:</b> até dia 4 de Junho às 23h59 através do Fénix<br></td></tr><tr><td>&nbsp;<b>Desafio: </b>diminuir o tempo de escrita numa interface para <i>smartwatches</i><br><b></b></td></tr><tr><td>&nbsp;<b>Resultado esperado: </b>interface que minimize o tempo de escrita de texto num <i>smartwatch</i> com uma área de 4x4cm<br><b></b></td></tr><tr><td>&nbsp;<b>Avaliação: </b>0-20 valores; 10 valores pelo processo de desenho, 10 valores pelo tempo médio de palavras por minuto e respetiva taxa de sucesso<br><b></b></td></tr></tbody></table><b>1. Desafio</b><p></p><p>O objetivo deste <i>bake-off</i> é desenhar e implementar uma técnica de escrita de texto para <i>smartwatches</i>. É disponibilizado um <a href="https://editor.p5js.org/AugustoEst/sketches/39guyjyRi">código-fonte</a><a href="https://editor.p5js.org/AugustoEst/sketches/39guyjyRi"></a> em <a href="https://p5js.org/">p5.js</a> que:</p><ul><li><b>A.</b> Mostra um teclado navegacional 2D e simulação o dedo do utilizador (<i>fat finger</i>);</li></ul><ul><li><b>B. </b>Indica qual a frase a transcrever (<i>Target</i>), o estado atual da frase do utilizador (<i>Entered</i>), e o botão de <i>ACCEPT </i>para confirmar este <i>input </i>(Figura 1);</li></ul><ul><li><b>C.</b> Quantifica o desempenho do utilizador com base no tempo de escrita (i.e., palavras por minuto, <i>words per minute</i>, WPM), <i>penalty </i>(com base na diferença entre o <i>Target </i>e <i>Entered</i>), e <b>WPM + <i>penalty</i></b>.</li></ul><br><p>Para vencerem este <i>bake-off </i>têm de alterar o código-fonte fornecido de maneira a que os vossos utilizadores escrevam o texto <i>Target </i>o mais rapidamente possível (<b>atenção a diferenças entre o <i>Target </i>e <i>Entered </i>acima de 5%</b>).</p><br><p><img src="./bakeoff-3-statement_files/Screenshot 2021-05-07 at 02.28.07.png" width="378" height="347"></p><p><b>Figura 1.</b> A interface disponibilizada no código-fonte.</p><br><p>Têm também de calcular e <b>imprimir uma métrica adicional</b>: caracteres por segundo (CPS). Só precisam de ter em conta os caracteres presentes na frase final (<i>Entered</i>) que é submetida após o <i>ACCEPT </i>(incluindo “espaços”).</p><br><p><b>2. Funcionamento</b></p><p>O <i>bake-off</i> é um desafio de design em aberto. É crucial que iniciem um <b>processo iterativo</b> de geração e teste de ideias desde o primeiro dia. <b>A vossa solução tem de obedecer às seguintes regras</b>:</p><br><ol><li><p><b>Não podem</b> alterar o tamanho do ecrã (4x4cm) ou da área de <i>input </i>(4x3cm). Dito isto, <b>podem </b>alterar o <i>layout </i>das mesmas (moverem a área de <i>input </i>do fundo para o topo do ecrã, etc.) e incluir algum tipo de <i>feedback </i>na área não interativa (4x1cm);</p></li><li><p><b>Não podem</b> alterar as componentes descritas em B acima (<i>layout</i>, tamanho, etc.);</p></li><li><p><b>Não podem</b> alterar o desenho ou <i>layout </i>do braço e dedo do utilizador;&nbsp;</p></li><li><p><b>Não podem</b> aceder à frase objetivo (<i>Target</i>) ou ao corpus de frases (<i>phrases.txt</i>). Dito isto, o vosso teclado não necessita incluir acentos dado as que frases estão todas em inglês (i.e., para além de letras necessitam apenas do “espaço” e algum modo de apagar o que foi escrito);</p></li><li><p><b>Têm </b>obrigatoriamente que usar o botão esquerdo do rato para indicar um toque / <i>tap </i>do dedo no ecrã do <i>smartwatch</i>. <b>Têm </b>também que manter o botão esquerdo do rato premido na simulação de um <i>press </i>no ecrã;</p></li><li><p>O espaço de <i>input </i>e <i>output </i>do <i>smartwatch </i>é o seguinte:<i> touch input</i> (4x3cm) e <i>output </i>visual (4x4cm) e sonoro. <b>Não podem</b> criar interações impossíveis neste espaço, por exemplo: desenhar sobre o dedo ou braço do utilizador; incluírem o estado de <i>hover</i>; etc.;</p></li><li><p><b>Podem </b>implementar algoritmos de texto preditivo desde que: (i) tenhamos acesso à vossa implementação (i.e. não são permitidas soluções <i>black-box</i>); e (ii) que o vosso algoritmo não aceda ao <i>phrases.txt</i> (Regra 4). De igual modo, não podem treinar um modelo de <i>machine learning</i> com base nas iterações com os vossos participantes (<i>overfitting </i>ao <i>phrases.txt</i>). Recomendamos os recursos descritos abaixo em “4. Recursos e Ferramentas”.&nbsp;&nbsp;</p></li></ol><br><p><b>3. Recomendações</b></p><p>Confirmem com o docente do laboratório ou através do Discord (#bake-off-3) se não tiverem a certeza se uma das vossas decisões de desenho quebra alguma das regras descritas acima.</p><br><p>Lembrem-se, o vosso objetivo de desenho é minimizar o tempo de escrita.&nbsp; Vejam com atenção ambas as aulas sobre “Dispositivos Móveis” (23 de Março), "Interacção Computacional" (18 de Maio), e “Introdução de Texto” (20 de Maio).&nbsp;</p><br><p><b>4. Recursos e Ferramentas</b></p><p>A vossa aplicação será desenvolvida através do p5.js, uma biblioteca JavaScript<i> open-source</i> para código criativo. Isto com base no código-base seguinte: <a href="https://editor.p5js.org/AugustoEst/sketches/39guyjyRi">https://editor.p5js.org/AugustoEst/sketches/39guyjyRi</a>&nbsp;</p><br><p>Para evitarmos problemas de acesso e <i>hosting </i>recomendamos o seguinte editor web: <a href="https://editor.p5js.org/">https://editor.p5js.org/</a>. Dito isto, podem optar por fazer host da vossa aplicação em qualquer domínio (desde que seja acessível aos vossos participantes no dia do bake-off).</p><br><ul><li><p>Learn: <a href="https://p5js.org/learn/">https://p5js.org/learn/</a>&nbsp;</p></li><li><p>Referência da linguagem: <a href="https://p5js.org/reference/">https://p5js.org/reference/</a>&nbsp;</p></li><li><p>Exemplos: <a href="https://p5js.org/examples/">https://p5js.org/examples/</a>&nbsp;&nbsp;</p></li><li><p>Bibliotecas: <a href="https://p5js.org/libraries/">https://p5js.org/libraries/</a>&nbsp;</p></li></ul><br><p>Para exercícios com<b> texto preditivo</b> recomendados os vários ficheiros de texto disponíveis em <a href="https://norvig.com/ngrams/">Natural Language Corpus Data: Beautiful Data</a>:</p><br><ul><li><p><a href="https://norvig.com/ngrams/count_1w.txt">count_1w.txt</a>: 1/3 milhões das palavras mais frequentes (por ordem de frequência);</p></li><li><p><a href="https://norvig.com/ngrams/spell-errors.txt">spell-errors.txt</a>: coleção das correções mais frequentes (palavra correta: erro comum #1, erro comum #2)</p></li><li><p>etc.</p></li></ul><br><p><b>5. Competição</b></p><p>O bake-off termina com uma competição que será realizada na aula de laboratório da<b> semana de 31 de Maio</b>. Cada aluno irá testar todos os projetos do seu turno. Estes testes serão realizados de forma remota, mas terão que terminar dentro do período de aula.</p><br><p>É da responsabilidade de cada grupo preparar a solução e o link de acesso à aplicação p5.js. A ordem de execução dos projetos por cada aluno será aleatória e da responsabilidade do docente do laboratório. Aos alunos pede-se que não interajam com os autores dos projetos durante o <i>bake-off</i>, que concluam as tarefas sem distrações e com máximo de concentração possível, e que<b> usem um computador com rato </b>por uma questão de consistência e justiça dos resultados.</p><br><p><b>Comportamentos desonestos (menos éticos) resultam na desqualificação da competição (cotação de 0.0v).</b> Tempos médios de seleção dois desvios padrões acima ou abaixo da média serão descartados. Alunos com 3 ou mais avaliações descartadas serão penalizados com 0.5v. A mesma penalização será aplicada a alunos que não completem todas as avaliações dentro do tempo de aula.</p><br><p>Reportem algum projeto que quebre as regras definidas “2. Funcionamento” ao docente do laboratório. Finalmente, usem o vosso <b>nome </b>(primeiro e último) e <b>grupo </b>no Zoom.</p><br><p><b>6. Submissão</b></p><p>A submissão tem de ser feita <b>até dia 4 de Junho às 23h59 via Fenix</b>. Apenas um membro do grupo terá que realizar esta entrega; um documento com o seguinte formato <i>IPM2011132646L04_Grupo42.txt</i> e contendo apenas <b>dois links</b>:</p><br><ol><li><p><i>Link </i>para a aplicação p5.js (<i>File &gt; Share &gt; Edit</i>). Se não optaram pelo editor web do p5.js a vossa submissão tem que incluir obrigatoriamente o vosso código-fonte (GitHub, etc.).&nbsp;</p></li></ol><br><ol start="2"><li><p>Link para <b>vídeo </b>YouTube (<i>Unlisted</i>) com a descrição do processo de desenho e solução final (com <i>captions </i>ou <i>voice-over</i>). A captação de vídeo com o telemóvel é suficiente já que a avaliação não contempla a qualidade de gravação ou edição. Por outro lado, o vídeo deve conter:</p></li></ol><ul><li><p><b>Ideias iniciais</b>: quais foram? Um descrição rápida ou demonstração de esboços/protótipos é suficiente;</p></li><li><p><b>Três iterações sobre a aplicação</b>. Cada iteração deve descrever:</p></li><li><ul><li><p>As novas ideias e o porquê destas (com base nos resultados da iteração anterior)</p></li><li><p>O número e descrição dos participantes (pelo menos cinco por iteração)</p></li><li><p>A descrição da metodologia (testes sumativos se optaram por apenas comparar a performance dos vossos utilizadores; observação; <i>debriefing</i>, etc.)</p></li><li><p>O tempo médio de escrita (WPM + <i>penalty</i>)</p></li></ul></li><li><p><b>Solução final</b>: demonstrem a solução final e expliquem as vossas opções de desenho finais;</p></li><li><p>O vídeo não deve ultrapassar os<b> 3 minutos</b>.</p></li></ul><br><p>Avaliação</p><ol><li><p><b>10.0v, Processo de Desenho</b>: demonstrado através da submissão vídeo;</p></li><li><p><b>10.0v, Tempo médio de escrita (WPM + <i>penalty</i>)</b>. Esta componente será calculada através dos resultados dos testes com utilizadores durante o<i> bake-off.</i> A métrica é calculada automaticamente pelo código-fonte fornecido e submetida para uma base de dados (<i>Firebase</i>). O tempo de escrita (com penalização) será associado à seguinte nota:</p></li></ol><ul><li><p>0.0v: &lt;= 3.0 palavra por minuto (WPM)</p></li><li><p>2.0v: ]3.0 ; 5.25[</p></li><li><p>4.0v: [5.25 ; 7.5[</p></li><li><p>6.0v: [7.5 ; 9.75[&nbsp;</p></li><li><p>8.0v: [9.75 ; 12.0[</p></li><li><p>10.0v: &gt;= 12.0 WPM</p></li></ul><ol start="3"><li><p><b>1.0v, Utilizador mais rápido (bónus)</b>. O utilizador mais rápido de cada turno de laboratório receberá uma bonificação de 1.0v na nota final do <i>bake-off</i> (WPM + <i>penalty</i>).</p></li><li><p><b>-2.0v</b>, Caracteres por segundo (CPS). Grupos que não calculem o CPS ou não os enviem para a nossa base de dados terão uma penalização de 2.0v. Erro neste cálculo acarreta uma penalização de 0.5v.</p></li></ol><br><p><b>Caso não seja submetido o vídeo terão 0.0v nas primeiras duas componentes descritas acima (1. e 2.). Caso não submetam o projeto p5.js serão apenas avaliados na componente 1. (máximo 10.0v).</b></p><br><p><b>Grupos ou elementos que não compareçam na sessão de bake-off terão cotação de 0.0v na componente 2</b>., com exceção de casos com falta justificada (por ex. declaração médica).</p><br><p>Finalmente, <b>grupos que quebram as regras definidas acima em “2. Funcionamento” terão cotação de 0.0v na componente 2.</b></p><p></p>
+
+            
+        
+    </div><!-- /.blog-post -->
+
+
+	        </div>
+        
+
+
+<nav class="col-sm-3" style="padding-left:0px; padding-top:60px;z-index:999; margin-left:-1px;">
+  <!-- REGULAR MENU -->
+            <div class="sidebar-module">
+            
+                  <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/pagina-inicial">
+      Página Inicial              </a><a class="rsslink" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/rss/announcement"><i style="float:right;">&nbsp;</i></a>
+          
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/grupos">
+      Grupos          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/avaliacao">
+      Avaliação          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/bibliografia">
+      Bibliografia          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/horario">
+      Horário          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/metodos-de-avaliacao">
+      Métodos de Avaliação          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/objectivos">
+      Objectivos          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/planeamento">
+      Planeamento          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/programa">
+      Programa          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/turnos">
+      Turnos          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/anuncios">
+      Anúncios              </a><a class="rsslink" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/rss/announcement"><i style="float:right;">&nbsp;</i></a>
+          
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/sumarios">
+      Sumários              </a><a class="rsslink" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/rss/summary"><i style="float:right;">&nbsp;</i></a>
+          
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/notas">
+      Notas          </a>
+        </li>
+                    </ul>
+          </div>
+            <div class="sidebar-module">
+            
+                  <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/funcionamento-a-distancia">
+      Funcionamento à Distância          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/aulas-teoricas-2d1">
+      Aulas Teóricas          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/aulas-de-laboratorio">
+      Aulas de Laboratório          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/enunciado-bake-off-1">
+      Enunciado: Bake-off #1          </a>
+          <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/faqs---bake-off-1">
+      FAQs          </a>
+        </li>
+                    </ul>
+    </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/enunciado-bake-off-2">
+      Enunciado: Bake-off #2          </a>
+          <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/faqs">
+      FAQs          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/codigo-base">
+      Código-Base          </a>
+        </li>
+                    </ul>
+    </li>
+                                        <li class="menuItem open active">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/enunciado-bake-off-3">
+      Enunciado: Bake-off #3          </a>
+          <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/faqs-404">
+      FAQs          </a>
+        </li>
+                    </ul>
+    </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/material-de-apoio">
+      Material de Apoio          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/faq---perguntas-frequentes">
+      FAQs - Perguntas Frequentes          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/pautas">
+      Pautas          </a>
+          <ul class="nav nav-pills nav-stacked list-unstyled children">
+                              <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/miniteste-1">
+      Mini Teste #1          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/miniteste-2">
+      Mini Teste #2          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/bake-off-1">
+      Bake-off #1          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/mini-teste-3">
+      Mini Teste #3          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/bake-off-2">
+      Bake-off #2          </a>
+        </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/mini-teste-4">
+      Mini Teste #4          </a>
+        </li>
+                    </ul>
+    </li>
+                                        <li class="menuItem  ">
+    <a class="item" href="https://fenix.tecnico.ulisboa.pt/disciplinas/IPM2011132646/2020-2021/2-semestre/horarios-de-duvidas">
+      Horários de Dúvidas          </a>
+        </li>
+                    </ul>
+          </div>
+    
+    <div class="sidebar-module">
+    </div>
+</nav>
+
+<script type="text/javascript">
+(function() {
+  $('.menuFolder:not(.open)>.children').hide();
+  $('.menuFolder>p').click(function(event){
+    $(this).parent().toggleClass('open');
+    $(this).parent().children('.children').slideToggle();
+    event.preventDefault();
+  });
+  setLang=function(l){$.post('/api/bennu-core/profile/locale/'+l.replace('_', '-')).always(function(){location.reload();})}
+})();
+</script>
+
+      </main><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="container" style="border-top:1px solid #ddd; margin-top:30px">
+      <div class="col-sm-9">
+        <a class="brand" href="http://fenixedu.org/"><img width="150" height="34" src="./bakeoff-3-statement_files/logo_fenixedu_footer.svg" alt="Powered by FenixEdu"></a>
+      </div>
+
+      <div class="col-sm-3" style="color:#888">
+        <span style="padding-left:15px;">© Instituto Superior Técnico</span>
+      </div>
+      
+    </footer>
+
+    <script src="./bakeoff-3-statement_files/bootstrap.min.js" type="text/javascript" async=""></script>
+  
+</body></html>
